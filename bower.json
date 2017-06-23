@@ -1,0 +1,25 @@
+{
+  "name": "microbloggos",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "baptiste.garcin@gmail.com <baptiste.garcin@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "angular-route": "latest"
+  }
+}
