@@ -1,15 +1,4 @@
-/**
-* @Author: Ernest
-* @Date:   12-Jan-2017
-* @Project: MEAN_rush
-* @Filename: angCtrl.js
-* @Last modified by:   Ernest
-* @Last modified time: 15-Jan-2017
-* @License: MIT
-*/
-
-
-var app = angular.module('MicroBloggos', ['ngStorage', "ngRoute"]);
+var app = angular.module('MicroBloggos', ['ngStorage', 'ngRoute']);
 
 app.config(function($routeProvider){
     $routeProvider.when('/', {templateUrl: "./views/login.html",

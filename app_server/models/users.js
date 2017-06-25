@@ -94,8 +94,7 @@ module.exports.add = function(nameToAdd, emailToAdd, passwordToAdd, callback){
 		updated_at : new Date(),
 		created_at : new Date()
 	});
-	userToAdd.setPassword(passwordToAdd)
-
+	userToAdd.setPassword(passwordToAdd);
 
 	userToAdd.save(function(err){
 		if(err)

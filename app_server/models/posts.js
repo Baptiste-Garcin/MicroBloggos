@@ -76,7 +76,6 @@ module.exports.getPost = function(id, author, callback) {
 
 
 module.exports.delete = function(id, callback){
-	console.log("test");
 	Post.find({_id:id}).remove(function(err){
 		if(err)
 		callback(err);

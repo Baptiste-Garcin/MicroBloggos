@@ -13,11 +13,10 @@
 var mongoose = require('mongoose');
 
 module.exports.connect = function(){
-	mongoose.connect('mongodb://localhost/mydb', function (err) {
-	// mongoose.connect('mongodb://mean_rush:MicroBloggos@81.57.35.10:27017/mydb', function (err) {
-		if (err)
+	mongoose.connect('mongodb://127.0.0.1/mydb', function (err) {
+		if (err) {
 		throw err;
-
+}
 		console.log('DB connect');
 	});
 }
