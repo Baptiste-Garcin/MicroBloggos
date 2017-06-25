@@ -13,7 +13,7 @@
 var mongoose = require('mongoose');
 
 module.exports.connect = function(){
-	mongoose.connect('mongodb://127.0.0.1/mydb', function (err) {
+	mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1/mydb', function (err) {
 		if (err) {
 		throw err;
 }
